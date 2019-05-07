@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "743101090903",
+    "firebase_url": "https://restaurantroulette-6a8f4.firebaseio.com",
+    "project_id": "restaurantroulette-6a8f4",
+    "storage_bucket": "restaurantroulette-6a8f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743101090903:android:76a3b100546d659c",
+        "android_client_info": {
+          "package_name": "com.restaurantroulette"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743101090903-ugvgbqi6ape16i3p9bee76t2imcdvq5j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.restaurantroulette",
+            "certificate_hash": "a39444f558e04ac492d631cb64783a344be22170"
+          }
+        },
+        {
+          "client_id": "743101090903-j1dnv8u0mqfh4jt7ln30efucilc6mdjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi1kzhMFfSd9qsPL7KPyjUQ3hO5IfynPY"
+        },
+        {
+          "current_key": "AIzaSyCWbALqmfpc-IfLPImTFpDHio4amjxQmTk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743101090903-j1dnv8u0mqfh4jt7ln30efucilc6mdjr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

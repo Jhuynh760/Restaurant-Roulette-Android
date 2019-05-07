@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/findButton"
+        android:layout_width="110dp"
+        android:layout_height="37dp"
+        android:onClick="getRandomRestaurant"
+        android:text="@string/findPlaceText"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addressText" />
+
+    <EditText
+        android:id="@+id/addressText"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:hint="@string/addressTextString"
+        android:importantForAutofill="no"
+        android:inputType="textPostalAddress"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/radiusText"
+        android:layout_width="85dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:hint="@string/radText"
+        android:inputType="number"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toEndOf="@+id/findButton"
+        app:layout_constraintTop_toBottomOf="@+id/addressText" />
+
+    <TextView
+        android:id="@+id/errorText"
+        android:layout_width="217dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="40dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/addressText"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="85dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="historyButton"
+        android:text="@string/historyString"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
